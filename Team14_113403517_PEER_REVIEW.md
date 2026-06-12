@@ -65,7 +65,7 @@ Through these challenges, I gained valuable experience with Neo4j, graph databas
 
 ## A4. Estimated contribution percentage
 
-My estimated contribution: **33%**
+My estimated contribution: **34%**
 
 ---
 
