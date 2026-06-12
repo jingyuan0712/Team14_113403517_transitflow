@@ -139,7 +139,7 @@ Their implementation closely followed the planned work allocation and successful
 
 ### Estimated contribution percentage for this teammate
 
-My estimate of their contribution: **34%**
+My estimate of their contribution: **33%**
 
 ---
 
