@@ -71,6 +71,7 @@ My estimated contribution: **34%**
 
 # Section B — Peer Assessments
 
+
 ## B1. Assessment of Teammate 1
 
 | Field                 | Your answer |
@@ -80,29 +81,30 @@ My estimated contribution: **34%**
 
 ### What did this teammate deliver?
 
-This teammate was primarily responsible for the PostgreSQL and vector database seeding components. Their work included implementing `seed_postgres.py`, which handled the complete PostgreSQL seeding workflow, including stations, schedules, seat layouts, users, bookings, payments, and feedback records. They also implemented secure password and security-answer hashing using Argon2id.
+This teammate was primarily responsible for PostgreSQL data seeding and database initialization. Their work included implementing `seed_postgres.py`, which handled the generation and insertion of stations, schedules, seat layouts, users, bookings, payments, and feedback data into the PostgreSQL database.
 
-In addition, they were the primary author of `seed_vectors.py`, which generated policy documents, created embeddings through the configured LLM provider, and stored vector representations in the database. They also maintained the PostgreSQL seed improvement documentation and validation records.
+They also implemented utility functions for loading data, database connections, data insertion, password hashing, and security-answer hashing. In addition, they contributed to the optional Task 6 extension and participated in integration testing and debugging during the later stages of the project.
 
 ### Did their actual contribution match the agreed work allocation?
 
 **Yes.**
 
-Their contributions closely matched the agreed work allocation. They successfully completed the PostgreSQL and vector database seeding components and provided the required functionality for data generation and vector document processing.
+Their contributions closely matched the agreed work allocation. They successfully completed the PostgreSQL seeding tasks and contributed to integration activities and the optional extension work.
 
 ### Peer rating for this teammate
 
-| Criterion                                           | Rating (1–5) | Justification                                                                                         |
-| --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------- |
-| Delivered the tasks assigned in the work allocation | 5            | Completed all assigned PostgreSQL and vector seeding tasks successfully.                              |
-| Quality of their work was satisfactory              | 5            | The implemented functionality worked correctly and integrated smoothly with other project components. |
-| Communicated well and kept the team informed        | 5            | Regularly shared progress updates and participated in discussions regarding integration and testing.  |
-| Met deadlines agreed within the team                | 5            | Assigned work was completed according to the agreed timeline.                                         |
-| **Overall rating for this teammate**                | **5**        | Made significant contributions and fulfilled all assigned responsibilities.                           |
+| Criterion                                           | Rating (1–5) | Justification                                                                                        |
+| --------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------- |
+| Delivered the tasks assigned in the work allocation | 5            | Completed all assigned PostgreSQL seeding and integration tasks successfully.                        |
+| Quality of their work was satisfactory              | 5            | The implemented functionality worked correctly and integrated smoothly with the rest of the system.  |
+| Communicated well and kept the team informed        | 5            | Regularly shared progress updates and participated in discussions regarding testing and integration. |
+| Met deadlines agreed within the team                | 5            | Assigned work was completed according to the agreed project timeline.                                |
+| **Overall rating for this teammate**                | **5**        | Made valuable contributions and fulfilled all assigned responsibilities.                             |
 
 ### Estimated contribution percentage for this teammate
 
 My estimate of their contribution: **33%**
+
 
 ---
 
