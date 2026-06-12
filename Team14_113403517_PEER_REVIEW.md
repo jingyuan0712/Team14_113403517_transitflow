@@ -81,29 +81,32 @@ My estimated contribution: **34%**
 
 ### What did this teammate deliver?
 
-This teammate was primarily responsible for PostgreSQL data seeding and database initialization. Their work included implementing `seed_postgres.py`, which handled the generation and insertion of stations, schedules, seat layouts, users, bookings, payments, and feedback data into the PostgreSQL database.
+This teammate took primary responsibility for the PostgreSQL database portion of the project. They developed and maintained the database seeding functionality in `seed_postgres.py`, ensuring that the seeding process could be executed safely and repeatedly without causing inconsistencies. They also prepared and maintained multiple seed-data configurations used during development and testing.
 
-They also implemented utility functions for loading data, database connections, data insertion, password hashing, and security-answer hashing. In addition, they contributed to the optional Task 6 extension and participated in integration testing and debugging during the later stages of the project.
+In addition, they were heavily involved in the design of the relational schema defined in `schema.sql`. This included establishing the table structure, defining relationships between entities, configuring keys and constraints, and creating indexes to support efficient data access. They also applied database normalization practices, particularly Third Normal Form (3NF), to improve data organization and reduce unnecessary duplication.
+
+They further contributed to the project's technical documentation by explaining database design choices and evaluating trade-offs such as normalization benefits, indexing strategies, maintenance overhead, and query efficiency. They also assisted with database testing, verification, and documentation tasks associated with the final system and extension features.
 
 ### Did their actual contribution match the agreed work allocation?
 
 **Yes.**
 
-Their contributions closely matched the agreed work allocation. They successfully completed the PostgreSQL seeding tasks and contributed to integration activities and the optional extension work.
+Their contributions closely matched the agreed work allocation. They successfully completed the PostgreSQL schema design and seeding responsibilities, contributed to documentation, and participated in testing and integration activities throughout the project.
 
 ### Peer rating for this teammate
 
-| Criterion                                           | Rating (1–5) | Justification                                                                                        |
-| --------------------------------------------------- | ------------ | ---------------------------------------------------------------------------------------------------- |
-| Delivered the tasks assigned in the work allocation | 5            | Completed all assigned PostgreSQL seeding and integration tasks successfully.                        |
-| Quality of their work was satisfactory              | 5            | The implemented functionality worked correctly and integrated smoothly with the rest of the system.  |
-| Communicated well and kept the team informed        | 5            | Regularly shared progress updates and participated in discussions regarding testing and integration. |
-| Met deadlines agreed within the team                | 5            | Assigned work was completed according to the agreed project timeline.                                |
-| **Overall rating for this teammate**                | **5**        | Made valuable contributions and fulfilled all assigned responsibilities.                             |
+| Criterion                                           | Rating (1–5) | Justification                                                                                                                 |
+| --------------------------------------------------- | ------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Delivered the tasks assigned in the work allocation | 5            | Completed all assigned PostgreSQL schema design, database seeding, and documentation tasks successfully.                      |
+| Quality of their work was satisfactory              | 5            | The database design and seeding workflow were well implemented and integrated smoothly with the rest of the system.           |
+| Communicated well and kept the team informed        | 5            | Regularly shared progress updates and participated in discussions regarding development, testing, and integration.            |
+| Met deadlines agreed within the team                | 5            | All assigned work was completed according to the agreed project schedule.                                                     |
+| **Overall rating for this teammate**                | **5**        | Made significant contributions to the relational database component and consistently fulfilled all assigned responsibilities. |
 
 ### Estimated contribution percentage for this teammate
 
 My estimate of their contribution: **33%**
+
 
 
 ---
